@@ -19,12 +19,28 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
           Professional Interests
         </h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-          I&apos;m passionate about building technology that makes a real difference in people{"'"}s lives. 
-          My focus areas include fintech applications, mobile development with modern Android technologies, 
-          and creating intuitive user experiences. I believe in writing clean, maintainable code and 
-          staying up-to-date with the latest development practices and tools.
-        </p>
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            I&apos;m passionate about building technology that makes a real difference in people{"'"}s lives. 
+            My focus areas include fintech applications, mobile development with modern Android technologies, 
+            and creating intuitive user experiences. I believe in writing clean, maintainable code and 
+            staying up-to-date with the latest development practices and tools.
+          </p>
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+          Personal Interests
+        </h2>
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            When I&apos;m not coding, I enjoy exploring new technologies, reading about emerging trends in software development, 
+            and working on side projects. I also love staying active, whether that&apos;s through sports, hiking, or trying out 
+            new activities. I find that maintaining a balance between work and personal interests helps me stay creative and 
+            brings fresh perspectives to my projects.
+          </p>
+        </div>
       </section>
 
       <section className="mb-12">
@@ -35,7 +51,7 @@ export default function AboutPage() {
           {skillsData.map((category) => (
             <div
               key={category.category}
-              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
+              className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md"
             >
               <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                 {category.category}
@@ -44,7 +60,7 @@ export default function AboutPage() {
                 {category.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm rounded"
+                    className="px-3 py-1 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm rounded"
                   >
                     {skill}
                   </span>
@@ -55,10 +71,11 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
           Education
         </h2>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-start gap-4">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-start gap-4">
           
           <Image
             src="/projects/school-logo.png" 
@@ -79,6 +96,7 @@ export default function AboutPage() {
             {education.duration} • GPA: {education.gpa}
           </p>
         </div>
+      </section>
     </div>
   );
 }

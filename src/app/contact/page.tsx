@@ -50,7 +50,7 @@ export default function ContactPage() {
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline"
             >
-              github.com/Andrew-dev1
+              github.com/Andrew-dev-1
             </a>
           </div>
         </div>
