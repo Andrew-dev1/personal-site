@@ -35,10 +35,9 @@ export default function AboutPage() {
         </h2>
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            When I&apos;m not coding, I enjoy exploring new technologies, reading about emerging trends in software development, 
-            and working on side projects. I also love staying active, whether that&apos;s through sports, hiking, or trying out 
-            new activities. I find that maintaining a balance between work and personal interests helps me stay creative and 
-            brings fresh perspectives to my projects.
+            When I&apos;m not coding, I enjoy cooking, watching anime, trying new music genres (give me recs!), reading about emerging trends in software development, 
+            and working on side projects. 
+            A lot of interests yes, but I also love staying active through walking, bouldering, or gyming. 
           </p>
         </div>
       </section>
