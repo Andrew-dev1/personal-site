@@ -90,3 +90,17 @@ body {
 .project-card:hover {
   transform: translateY(-8px) rotateX(2deg);
 }
+
+/* Navbar animations */
+@keyframes slide-in {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out forwards;
+}

@@ -106,12 +106,7 @@ Vercel is the easiest and most optimized platform for Next.js applications.
    - **Publish directory**: `.next` (or leave default)
 6. Click **"Deploy site"**
 
-### Option 3: Other Platforms
 
-- **Railway**: [railway.app](https://railway.app) - Simple deployment with git integration
-- **Render**: [render.com](https://render.com) - Free tier available
-- **DigitalOcean App Platform**: Good for more control
-- **AWS Amplify**: Enterprise-grade hosting
 
 ### Pre-Deployment Checklist
 
