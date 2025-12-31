@@ -66,7 +66,7 @@ export default function Home() {
           style={{ animationDelay: "0.5s" }}
         >
           I&apos;m a passionate software engineer interested in fintech, mobile application development, and AI applications. 
-          I love building clean solutions to complex problems and creating seemless user experiences.
+          I love building clean solutions to complex problems and creating seamless user experiences.
         </p>
         <div 
           className={`flex flex-col sm:flex-row gap-4 justify-center ${

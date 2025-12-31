@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website built with Next.js, React, and Tailwind CSS. Showcases projects, skills, education, and contact information.
 
+🌐 **Live Site**: [https://personal-site-three-pearl-33.vercel.app/](https://personal-site-three-pearl-33.vercel.app/)
+
 ## Features
 
 - **Responsive Design**: Mobile-first design that works seamlessly across all devices

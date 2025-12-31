@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   title: "Andrew Li | Software Engineer",
   description: "Portfolio website of Andrew Li - Software Engineer specializing in fintech and mobile applications",
   keywords: ["Software Engineer", "Portfolio", "Fintech", "Mobile Development"],
+  openGraph: {
+    title: "Andrew Li | Software Engineer",
+    description: "Portfolio website of Andrew Li - Software Engineer specializing in fintech and mobile applications",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Andrew Li | Software Engineer",
+    description: "Portfolio website of Andrew Li - Software Engineer specializing in fintech and mobile applications",
+  },
 };
 
 export default function RootLayout({

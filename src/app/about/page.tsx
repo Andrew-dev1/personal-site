@@ -75,25 +75,24 @@ export default function AboutPage() {
           Education
         </h2>
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md flex items-start gap-4">
-          
           <Image
             src="/projects/school-logo.png" 
             alt="Logo of Colgate University"
             width={40}
             height={40}
-            className="object-contain opacity-80"
-            />
-
-
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-            {education.degree}
-          </h3>
-          <p className="text-gray-600 dark:text-gray-400 mt-1">
-            {education.school}
-          </p>
-          <p className="text-gray-600 dark:text-gray-400 mt-1">
-            {education.duration} • GPA: {education.gpa}
-          </p>
+            className="object-contain opacity-80 flex-shrink-0"
+          />
+          <div className="flex-1">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+              {education.degree}
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400 mt-1">
+              {education.school}
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 mt-1">
+              {education.duration} • GPA: {education.gpa}
+            </p>
+          </div>
         </div>
       </section>
     </div>

@@ -32,10 +32,14 @@ export default function ResumePage() {
         </div>
         <div className="w-full h-[calc(100vh-250px)] min-h-[800px]">
           <iframe
-            src="/Andrew_Li_Resume.pdf"
+            src="/Andrew_Li_Resume.pdf#toolbar=1"
             className="w-full h-full border-0"
             title="Andrew Li Resume"
+            loading="lazy"
           />
+          <p className="text-sm text-gray-500 dark:text-gray-400 text-center mt-4">
+            Having trouble viewing? <a href="/Andrew_Li_Resume.pdf" download className="text-blue-600 dark:text-blue-400 hover:underline">Download the PDF</a>
+          </p>
         </div>
       </div>
     </div>
