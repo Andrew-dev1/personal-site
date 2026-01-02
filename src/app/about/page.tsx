@@ -22,8 +22,8 @@ export default function AboutPage() {
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
             I&apos;m passionate about building technology that makes a real difference in people{"'"}s lives. 
-            My focus areas include fintech applications, mobile development with modern Android technologies, 
-            and creating intuitive user experiences. I believe in writing clean, maintainable code and 
+            I have been exploring many fields but my focus currently include fintech applications, fullstack development, and 
+            mobile development with modern Android technologies . I believe in writing clean, maintainable code and 
             staying up-to-date with the latest development practices and tools.
           </p>
         </div>

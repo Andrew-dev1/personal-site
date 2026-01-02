@@ -19,6 +19,15 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Andrew-dev-1/Walletify",
   },
   {
+    id: "Assembly-simulator",
+    title: "Assembly Simulator",
+    description: "A terminal-based ARM64 assembly language simulator with step-by-step execution and debugging capabilities.",
+    techStack: ["C", "GNU Make", "ARM Cross-Toolchain"],
+    image: "/projects/assembly-simulator.png",
+    githubUrl: "https://github.com/Andrew-dev1/ARM-assembly-simulator",
+    // liveUrl: "",
+  },
+  {
     id: "task-manager",
     title: "Task Manager Pro",
     description: "A full-stack task management application with real-time collaboration features. Users can create projects, assign tasks, set deadlines, and track progress with an intuitive dashboard.",
